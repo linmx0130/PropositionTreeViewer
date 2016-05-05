@@ -1,0 +1,4 @@
+((A_{1} \and A_{2}) \imply B)
+((A_{1} \and A_{2}) \imply B \and C)
+((A \imply (B \imply C)) \imply ((A \imply B) \imply (A \imply C)))
+(((\not B) \imply (\not A)) \imply(((\not B) \imply A) \imply B))

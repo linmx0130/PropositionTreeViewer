@@ -54,12 +54,12 @@ class ShowPanel extends JPanel{
         drawProposition(g, proposition,5,5,true,-1);
     }
 }
-public class Viewer extends JFrame {
+public class Viewer extends JDialog {
     public Viewer(Element proposition){
         JPanel panel = new ShowPanel(proposition);
         setContentPane(panel);
         setTitle("Proposition Tree Viewer");
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        //setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         pack();
     }
 }
